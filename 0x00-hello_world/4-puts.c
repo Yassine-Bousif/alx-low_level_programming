@@ -1,7 +1,6 @@
 #include <stdio.h>
-/*
- * main 0
- * puts function
+/**
+ * main - puts function
  * Return: 0 (Success)
  */
 int main(void)
