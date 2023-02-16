@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main is empty 
+ * main 0
  * puts function
  * Return: 0 (Success)
  */
