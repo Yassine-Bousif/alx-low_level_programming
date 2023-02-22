@@ -2,7 +2,7 @@
 /**
 * print_sign - function that prints sign of a number +/-/0
 * @n: number to be verified
-* Return: 0 if entered num is 0, 1 if num is positive, 
+* Return: 0 if entered num is 0, 1 if num is positive,
 * -1 if num is negative
 */
 
