@@ -10,6 +10,7 @@ int main(void)
 {
 	int cop;
 	unsigned long x1 = 0, x2 = 1, x3;
+
 	for (cop = 0; cop < 50; cop++)
 	{
 		x3 = x1 + x2;
