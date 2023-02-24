@@ -7,32 +7,16 @@
 
 int main(void)
 {
-	long int x;
-	long int max;
+	long int x = 612852475143;
 	long int y;
 
-	x = 612852475143;
-	max = -1;
-
-	while (x % 2 == 0)
-	{
-		max = 2;
-		x /= 2;
-	}
-
-	for (y = 3; y <= sqrt(n); y = y + 2)
+	for (y = 2; y < x; y++)
 	{
 		while (x % y == 0)
-		{
-			max = y;
-			x = x / y;
-		}
+			x /= y;
 	}
 
-	if (x > 2)
-		max = x;
-
-	printf("%ld\n", max);
+	printf("%ld\n", x);
 
 	return (0);
 }
