@@ -7,7 +7,7 @@
  *
  * @dest: destination string
  * @src: source string
- * 
+ *
  * Return: the pointer to dest
  */
 
