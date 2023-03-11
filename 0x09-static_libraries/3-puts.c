@@ -1,14 +1,15 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * _islower - checks for lowercase character
+ * _puts -  prints a string,
  *
- * @c: the character to check
- *
- * Return: 1 if c is lowercase, 0 otherwise
+ * @str: string to be printed
  */
 
-int _islower(int c)
+void _puts(char *str)
 {
-	return (c >= 'a' && c <= 'z');
+	while (*str)
+		_putchar(*str++);
+
+	_putchar('\n');
 }
