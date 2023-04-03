@@ -8,7 +8,7 @@
  * @h: pointer to the head of the list
  *
  *
- * return: number of elements in the listint_t list
+ * Return: number of elements in the listint_t list
  */
 
 size_t listint_len(const listint_t *h)
